@@ -1,0 +1,9 @@
+# action.yml
+name: 'Pandoc Customized'
+description: 'Use customized pandoc to build docx'
+inputs:
+outputs:
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
